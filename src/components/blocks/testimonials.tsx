@@ -17,59 +17,59 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
+    quote: "Mind Carft has completely transformed how I start my mornings. The daily exercises are exactly what I need.",
     author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    role: "Product Manager",
+    company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
+    quote: "The AI personalization is incredible. It's like having a personal growth coach that truly understands me.",
     author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    role: "Entrepreneur",
+    company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
+    quote: "Mind Carft helped me build the mental clarity I needed. It's become my daily non-negotiable.",
     author: "Kevin Yam",
     role: "Founder",
-    company: "Mercury Finance",
+    company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
+    quote: "The Thelium-based exercises are powerful. I've seen real progress in my focus and emotional balance.",
     author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    role: "Creative Director",
+    company: "Design Studio",
     image: "/testimonials/kundo-marta.webp",
   },
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
+    quote: "Mind Carft has completely transformed how I start my mornings. The daily exercises are exactly what I need.",
     author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    role: "Product Manager",
+    company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
+    quote: "The AI personalization is incredible. It's like having a personal growth coach that truly understands me.",
     author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    role: "Entrepreneur",
+    company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
+    quote: "Mind Carft helped me build the mental clarity I needed. It's become my daily non-negotiable.",
     author: "Kevin Yam",
     role: "Founder",
-    company: "Mercury Finance",
+    company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
+    quote: "The Thelium-based exercises are powerful. I've seen real progress in my focus and emotional balance.",
     author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    role: "Creative Director",
+    company: "Design Studio",
     image: "/testimonials/kundo-marta.webp",
   },
 ];
@@ -87,15 +87,14 @@ export const Testimonials = ({
         <div className="container">
           <div className="space-y-4">
             <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              Trusted by product builders
+              Trusted by growth seekers worldwide
             </h2>
             <p className="text-muted-foreground max-w-md leading-snug">
-              Mainline is built on the habits that make the best product teams
-              successful: staying focused, moving quickly, and always aiming for
-              high-quality work.
+              Join thousands who have made Mind Carft their daily ritual for 
+              personal transformation. Real people, real growth, real results.
             </p>
             <Button variant="outline" className="shadow-md">
-              Read our Customer Stories <ArrowRight className="size-4" />
+              Read success stories <ArrowRight className="size-4" />
             </Button>
           </div>
 

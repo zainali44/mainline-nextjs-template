@@ -30,16 +30,16 @@ const pricingPlans = [
     },
   },
   {
-    name: "Startup",
+    name: "Premium",
     button: {
       text: "Get started",
       variant: "outline" as const,
     },
   },
   {
-    name: "Enterprise",
+    name: "Lifetime",
     button: {
-      text: "Get a demo",
+      text: "Get lifetime access",
       variant: "outline" as const,
     },
   },
@@ -47,69 +47,57 @@ const pricingPlans = [
 
 const comparisonFeatures: FeatureSection[] = [
   {
-    category: "Usage",
+    category: "Core Features",
     features: [
       {
-        name: "Members",
-        free: "Unlimited",
+        name: "Daily exercises",
+        free: "Limited",
         startup: "Unlimited",
         enterprise: "Unlimited",
       },
       {
-        name: "Transactions",
-        free: "250",
-        startup: "Unlimited",
-        enterprise: "Unlimited",
+        name: "Progress tracking",
+        free: "Basic",
+        startup: "Advanced",
+        enterprise: "Advanced",
       },
       {
-        name: "Teams",
-        free: "2",
+        name: "Exercise library",
+        free: "20 exercises",
         startup: "Unlimited",
         enterprise: "Unlimited",
       },
     ],
   },
   {
-    category: "Features",
+    category: "AI & Personalization",
     features: [
       {
-        name: "Reporting",
+        name: "Basic AI recommendations",
         free: true,
         startup: true,
         enterprise: true,
       },
       {
-        name: "Analytics",
-        free: true,
-        startup: true,
-        enterprise: true,
-      },
-      {
-        name: "Import and export",
-        free: true,
-        startup: true,
-        enterprise: true,
-      },
-      {
-        name: "Integrations",
-        free: true,
-        startup: true,
-        enterprise: true,
-      },
-      {
-        name: "Mainline AI",
+        name: "Advanced AI personalization",
         free: null,
         startup: true,
         enterprise: true,
       },
       {
-        name: "Admin roles",
+        name: "Adaptive learning paths",
         free: null,
-        startup: null,
+        startup: true,
         enterprise: true,
       },
       {
-        name: "Audit log",
+        name: "Detailed analytics & insights",
+        free: null,
+        startup: true,
+        enterprise: true,
+      },
+      {
+        name: "Personal growth coaching",
         free: null,
         startup: null,
         enterprise: true,
@@ -117,22 +105,28 @@ const comparisonFeatures: FeatureSection[] = [
     ],
   },
   {
-    category: "Support",
+    category: "Access & Support",
     features: [
       {
-        name: "Priority Support",
+        name: "Community access",
         free: true,
         startup: true,
         enterprise: true,
       },
       {
-        name: "Account Manager",
+        name: "Offline access",
         free: null,
-        startup: null,
+        startup: true,
         enterprise: true,
       },
       {
-        name: "Uptime SLA",
+        name: "Priority support",
+        free: null,
+        startup: true,
+        enterprise: true,
+      },
+      {
+        name: "Early feature access",
         free: null,
         startup: null,
         enterprise: true,

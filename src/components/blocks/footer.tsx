@@ -14,7 +14,7 @@ export function Footer() {
   ];
 
   const social = [
-    { name: "Xwitter", href: "https://x.com/ausrobdev" },
+    { name: "Twitter", href: "https://x.com/mindcarft" },
     { name: "LinkedIn", href: "#" },
   ];
 
@@ -24,16 +24,16 @@ export function Footer() {
     <footer className="flex flex-col items-center gap-14 pt-28 lg:pt-32">
       <div className="container space-y-3 text-center">
         <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-          Start your free trial today
+          Begin your growth journey today
         </h2>
         <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-          Mainline is the fit-for-purpose tool for planning and building modern
-          software products.
+          Mind Carft is your daily ritual for the mind. Start strengthening your mental 
+          well-being with AI-powered exercises based on Thelium's proven methods.
         </p>
         <div>
           <Button size="lg" className="mt-4" asChild>
-            <a href="https://github.com/shadcnblocks/mainline-nextjs-template">
-              Get template
+            <a href="https://mindcarft.s3.us-east-1.amazonaws.com/app-release.apk" download>
+              Download the app
             </a>
           </Button>
         </div>

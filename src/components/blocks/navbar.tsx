@@ -2,13 +2,11 @@
 
 import { useState } from "react";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { ChevronRight, Github } from "lucide-react";
 
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
@@ -26,15 +24,15 @@ const ITEMS = [
     href: "#features",
     dropdownItems: [
       {
-        title: "Modern product teams",
+        title: "Mental well-being",
         href: "/#feature-modern-teams",
         description:
-          "Mainline is built on the habits that make the best product teams successful",
+          "AI-powered exercises tailored to strengthen your mind and elevate your well-being",
       },
       {
-        title: "Resource Allocation",
+        title: "Daily practices",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "Guided exercises inspired by Thelium's proven methods",
       },
     ],
   },
@@ -58,13 +56,7 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between px-6 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <Image
-            src="/logo.svg"
-            alt="logo"
-            width={94}
-            height={18}
-            className="dark:invert"
-          />
+          <span className="text-xl font-bold tracking-tight">Mind Carft</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -119,18 +111,17 @@ export const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2.5">
-          <ThemeToggle />
           <Link href="/login" className="max-lg:hidden">
             <Button variant="outline">
               <span className="relative z-10">Login</span>
             </Button>
           </Link>
           <a
-            href="https://github.com/shadcnblocks/mainline-nextjs-template"
+            href="https://twitter.com/mindcarft"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="size-4" />
-            <span className="sr-only">GitHub</span>
+            <span className="sr-only">Social</span>
           </a>
 
           {/* Hamburger Menu Button (Mobile Only) */}

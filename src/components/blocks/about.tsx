@@ -18,15 +18,15 @@ const About = () => {
         />
 
         <TextSection
-          title="The team"
+          title="Our mission"
           paragraphs={[
-            "We started building Mainline in 2019 and launched in 2022. Every endpoint has been designed from the ground up — with no technical debt or legacy systems. We are purpose-built to power project management innovation for the next hundred years.",
-            "We are 100% founder and team-owned, profitable, and we keep our team lean. Over time, this page will become more polished, but for now, we're focused on delivering for developers.",
-            "If you're interested in building the future of PM, check out our open roles below.",
+            "Mind Carft was created with a simple but powerful vision: to make personal growth accessible, effective, and sustainable for everyone. By combining cutting-edge AI technology with Thelium's time-tested methods, we've built a platform that truly adapts to your unique journey.",
+            "We believe that mental strength isn't built overnight—it's cultivated through consistent, mindful practice. That's why every exercise in Mind Carft is carefully designed to deliver real, measurable impact on your focus, emotional balance, and overall well-being.",
+            "Join thousands who have made Mind Carft their daily ritual for personal transformation.",
           ]}
           ctaButton={{
-            href: "/careers",
-            text: "View open roles",
+            href: "/signup",
+            text: "Start your journey",
           }}
         />
       </div>
@@ -35,8 +35,8 @@ const About = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
-            "At Mainline, we are dedicated to transforming the way teams plan, execute, and deliver projects. Our mission is to provide our customers with an unbeatable edge over delays, inefficiencies, and disorganisation through actionable insights and seamless collaboration. We'll stop at nothing to give you the tools you need to get every project across the finish line.",
-            "We're customer-obsessed — investing the time to understand every aspect of your workflow so that we can help you operate better than ever before. We're all in this together because your success is our success. In our history as a company, we've never lost a customer, because when your projects succeed, so do we.",
+            "At Mind Carft, we understand that true personal growth requires more than just good intentions—it requires the right guidance, consistent practice, and personalized support. Our AI-powered platform learns from your progress, adapts to your needs, and delivers exercises that meet you exactly where you are.",
+            "Built on Thelium's proven psychological framework, Mind Carft isn't just another wellness app. It's a comprehensive companion that helps you build lasting habits, strengthen mental resilience, and unlock clarity in every area of your life. Your growth is our purpose, and we're committed to supporting you every step of the way.",
           ]}
         />
         <ImageSection

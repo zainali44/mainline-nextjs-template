@@ -9,15 +9,15 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const items = [
   {
-    title: "Purpose-built for product development",
-    image: "/features/triage-card.svg",
+    title: "Daily personalized exercises",
+    image: "/features/triage.jpg",
   },
   {
-    title: "Manage projects end-to-end",
+    title: "Track your mental growth",
     image: "/features/cycle-card.svg",
   },
   {
-    title: "Build momentum and healthy habits",
+    title: "Build lasting mental resilience",
     image: "/features/overview-card.svg",
   },
 ];
@@ -30,19 +30,19 @@ export const Features = () => {
         <div className="relative flex items-center justify-center">
           <DashedLine className="text-muted-foreground" />
           <span className="bg-muted text-muted-foreground absolute px-3 font-mono text-sm font-medium tracking-wide max-md:hidden">
-            MEASURE TWICE. CUT ONCE.
+            STRENGTHEN. GROW. THRIVE.
           </span>
         </div>
 
         {/* Content */}
         <div className="mx-auto mt-10 grid max-w-4xl items-center gap-3 md:gap-0 lg:mt-24 lg:grid-cols-2">
           <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Made for modern product teams
+            Built for your mental well-being
           </h2>
           <p className="text-muted-foreground leading-snug">
-            Mainline is built on the habits that make the best product teams
-            successful: staying focused, moving quickly, and always aiming for
-            high-quality work.
+            Mind Carft combines AI-powered personalization with Thelium's proven methods
+            to help you build better habits, reduce stress, and unlock your full potential
+            through daily practices that enhance focus, clarity, and emotional balance.
           </p>
         </div>
 

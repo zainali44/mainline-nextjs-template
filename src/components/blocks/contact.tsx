@@ -9,12 +9,12 @@ import { DashedLine } from "@/components/dashed-line";
 
 const contactInfo = [
   {
-    title: "Corporate office",
+    title: "Support",
     content: (
       <p className="text-muted-foreground mt-3">
-        1 Carlsberg Close
+        We're here to help
         <br />
-        1260 Hillview, Australia
+        support@mindcarft.com
       </p>
     ),
   },
@@ -23,21 +23,21 @@ const contactInfo = [
     content: (
       <div className="mt-3">
         <div>
-          <p className="">Careers</p>
+          <p className="">General inquiries</p>
           <Link
-            href="mailto:careers@example.com"
+            href="mailto:hello@mindcarft.com"
             className="text-muted-foreground hover:text-foreground"
           >
-            careers@example.com
+            hello@mindcarft.com
           </Link>
         </div>
         <div className="mt-1">
           <p className="">Press</p>
           <Link
-            href="mailto:press@example.com"
+            href="mailto:press@mindcarft.com"
             className="text-muted-foreground hover:text-foreground"
           >
-            press@example.com
+            press@mindcarft.com
           </Link>
         </div>
       </div>
@@ -51,7 +51,7 @@ const contactInfo = [
           <Facebook className="size-5" />
         </Link>
         <Link
-          href="https://x.com/ausrobdev"
+          href="https://x.com/mindcarft"
           className="text-muted-foreground hover:text-foreground"
         >
           <Twitter className="size-5" />
@@ -69,10 +69,10 @@ export default function Contact() {
     <section className="py-28 lg:py-32 lg:pt-44">
       <div className="container max-w-2xl">
         <h1 className="text-center text-2xl font-semibold tracking-tight md:text-4xl lg:text-5xl">
-          Contact us
+          Get in touch
         </h1>
         <p className="text-muted-foreground mt-4 text-center leading-snug font-medium lg:mx-auto">
-          Hopefully this form gets through our spam filters.
+          Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
         </p>
 
         <div className="mt-10 flex justify-between gap-8 max-sm:flex-col md:mt-14 lg:mt-20 lg:gap-12">

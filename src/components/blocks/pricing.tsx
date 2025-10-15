@@ -14,37 +14,37 @@ const plans = [
     name: "Free",
     monthlyPrice: "$0",
     yearlyPrice: "$0",
-    description: "Free for everyone",
+    description: "Start your journey",
     features: [
-      "Unlimited members",
-      "2 teams",
-      "500 issues",
-      "Slack and Github integrations",
+      "Daily personalized exercises",
+      "Basic AI recommendations",
+      "Progress tracking",
+      "Community access",
     ],
   },
   {
-    name: "Startup",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    name: "Premium",
+    monthlyPrice: "$12",
+    yearlyPrice: "$9",
     features: [
       "All free plan features and...",
-      "Mainline AI",
-      "Unlimited teams",
-      "Unlimited issues and file uploads",
-      "Mainline Insights",
-      "Admin roles",
+      "Advanced AI personalization",
+      "Unlimited exercise library",
+      "Detailed analytics & insights",
+      "Priority support",
+      "Offline access",
     ],
   },
   {
-    name: "Enterprise",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    name: "Lifetime",
+    monthlyPrice: "$299",
+    yearlyPrice: "$299",
     features: [
-      "All free plan features and...",
-      "Mainline AI",
-      "Supermainline AGI",
-      "Free daily catered lunch",
-      "random HIPPA audits",
+      "All premium features",
+      "One-time payment",
+      "Lifetime access",
+      "Early access to new features",
+      "Personal growth coaching",
     ],
   },
 ];
@@ -57,12 +57,11 @@ export const Pricing = ({ className }: { className?: string }) => {
       <div className="container max-w-5xl">
         <div className="space-y-4 text-center">
           <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Pricing
+            Choose your growth path
           </h2>
           <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-            Use Mainline for free with your whole team. Upgrade to enable
-            unlimited issues, enhanced security controls, and additional
-            features.
+            Start with Mind Carft for free. Upgrade to unlock advanced AI personalization,
+            deeper insights, and unlimited access to transform your mental well-being.
           </p>
         </div>
 
@@ -71,7 +70,7 @@ export const Pricing = ({ className }: { className?: string }) => {
             <Card
               key={plan.name}
               className={`${
-                plan.name === "Startup"
+                plan.name === "Premium"
                   ? "outline-primary origin-top outline-4"
                   : ""
               }`}
@@ -121,9 +120,9 @@ export const Pricing = ({ className }: { className?: string }) => {
 
                 <Button
                   className="w-fit"
-                  variant={plan.name === "Startup" ? "default" : "outline"}
+                  variant={plan.name === "Premium" ? "default" : "outline"}
                 >
-                  Get started
+                  {plan.name === "Lifetime" ? "Get lifetime access" : "Get started"}
                 </Button>
               </CardContent>
             </Card>
