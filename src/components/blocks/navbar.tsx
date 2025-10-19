@@ -18,29 +18,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 
-const ITEMS = [
-  {
-    label: "Features",
-    href: "#features",
-    dropdownItems: [
-      {
-        title: "Mental well-being",
-        href: "/#feature-modern-teams",
-        description:
-          "AI-powered exercises tailored to strengthen your mind and elevate your well-being",
-      },
-      {
-        title: "Daily practices",
-        href: "/#resource-allocation",
-        description: "Guided exercises inspired by Thelium's proven methods",
-      },
-    ],
-  },
-  { label: "About Us", href: "/about" },
-  { label: "Pricing", href: "/pricing" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Contact", href: "/contact" },
-];
+const ITEMS: any[] = [];
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
