@@ -12,21 +12,20 @@ const About = () => {
         <ImageSection
           images={[
             { src: "/about/1.webp", alt: "Team collaboration" },
-            { src: "/about/2.webp", alt: "Team workspace" },
           ]}
           className="xl:-translate-x-10"
         />
 
         <TextSection
-          title="Our mission"
+          title="מה Mindcraft עושה"
           paragraphs={[
-            "Mind Carft was created with a simple but powerful vision: to make personal growth accessible, effective, and sustainable for everyone. By combining cutting-edge AI technology with Thelium's time-tested methods, we've built a platform that truly adapts to your unique journey.",
-            "We believe that mental strength isn't built overnight—it's cultivated through consistent, mindful practice. That's why every exercise in Mind Carft is carefully designed to deliver real, measurable impact on your focus, emotional balance, and overall well-being.",
-            "Join thousands who have made Mind Carft their daily ritual for personal transformation.",
+            "התנ״ך הוא לא רק סיפורים. מתחת לסיפור יש אלגוריתם — תבנית חוזרת של לחץ ← בחירה ← גבול ← אחריות ← התחדשות. Mindcraft מפענח את התבנית הזו ומתרגם אותה לכלים ברורים יום-יומיים להחלטות, הרגלים, מערכות יחסים, כסף והנהגה.",
+            "\"מצרים\" כאן היא לא מקום על המפה. זה החלק בחיים שרץ באוטומט: לחץ, פחד, רצון לרצות, חשיבה יתר, תגובתיות מתמדת. Mindcraft עוזר לך לזהות את התבניות האלה, לתת להן שם, ולתכנן מחדש איך אתה פועל — שבוע אחרי שבוע, צעד אחר צעד.",
+            "אתה לא צורך תוכן. אתה מריץ תהליך.",
           ]}
           ctaButton={{
-            href: "/signup",
-            text: "Start your journey",
+            href: "https://play.google.com/store/apps/details?id=com.mindcraft.mindcarft",
+            text: "התחל את המחזור השבועי",
           }}
         />
       </div>
@@ -35,13 +34,13 @@ const About = () => {
       <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
-            "At Mind Carft, we understand that true personal growth requires more than just good intentions—it requires the right guidance, consistent practice, and personalized support. Our AI-powered platform learns from your progress, adapts to your needs, and delivers exercises that meet you exactly where you are.",
-            "Built on Thelium's proven psychological framework, Mind Carft isn't just another wellness app. It's a comprehensive companion that helps you build lasting habits, strengthen mental resilience, and unlock clarity in every area of your life. Your growth is our purpose, and we're committed to supporting you every step of the way.",
+            "זו שיטה: מחזור שבועי מובנה שעוזר לך לצאת מ\"מצרים\" מנטלית (מצב הישרדות אוטומטי) ולבנות תשתית פנימית איתנה שאתה באמת יכול לחיות עליה.",
+            "כל שבוע אתה מקבל סט קטן של משימות ממוקדות: שאלות לכתוב עליהן, מיקרו-החלטות לקבל, שיחות ליזום, גבולות לשרטט, והרגלים להתקין. כל משימה קשורה לשלב ספציפי בנרטיב המקראי — אבל כתובה בשפה של החיים המודרניים, לא בטרמינולוגיה דתית.",
+            "המטרה היא תנועה: פחות תיאוריה, יותר פעולה כנה. לא \"מעיל יפה\" על אותן תבניות ישנות — תשתית שבאמת משנה את המבנה מתחת.",
           ]}
         />
         <ImageSection
           images={[
-            { src: "/about/3.webp", alt: "Modern workspace" },
             { src: "/about/4.webp", alt: "Team collaboration" },
           ]}
           className="hidden lg:flex xl:translate-x-10"
@@ -102,9 +101,19 @@ export function TextSection({
       </div>
       {ctaButton && (
         <div className="mt-8">
-          <Link href={ctaButton.href}>
-            <Button size="lg">{ctaButton.text}</Button>
-          </Link>
+          {ctaButton.href.startsWith('http') ? (
+            <a 
+              href={ctaButton.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button size="lg">{ctaButton.text}</Button>
+            </a>
+          ) : (
+            <Link href={ctaButton.href}>
+              <Button size="lg">{ctaButton.text}</Button>
+            </Link>
+          )}
         </div>
       )}
     </section>

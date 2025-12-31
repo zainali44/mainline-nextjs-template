@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button";
 
 export function Footer() {
   const navigation = [
-    { name: "Product", href: "/#feature-modern-teams" },
-    { name: "About Us", href: "/about" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
+    { name: "מוצר", href: "/#feature-modern-teams" },
+    { name: "אודות", href: "/about" },
+    { name: "תמחור", href: "/pricing" },
+    { name: "שאלות נפוצות", href: "/faq" },
+    { name: "צור קשר", href: "/contact" },
   ];
 
   const social = [
@@ -18,22 +18,26 @@ export function Footer() {
     { name: "LinkedIn", href: "#" },
   ];
 
-  const legal = [{ name: "Privacy Policy", href: "/privacy" }];
+  const legal = [{ name: "מדיניות פרטיות", href: "/privacy" }];
 
   return (
     <footer className="flex flex-col items-center gap-14 pt-28 lg:pt-32">
-      <div className="container space-y-3 text-center">
-        <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-          Begin your growth journey today
+      <div className="container space-y-3 flex flex-col items-center">
+        <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+          מוכן לבנות את התשתית הפנימית שלך?
         </h2>
-        <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-          Mind Carft is your daily ritual for the mind. Start strengthening your mental 
-          well-being with AI-powered exercises based on Thelium's proven methods.
+        <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+          התחל את המחזור השבועי שלך. עבור מתבניות תגובתיות לארכיטקטורה יציבה. 
+          עצב את מוחך. בנה מבנה חיים שמחזיק מעמד.
         </p>
         <div>
           <Button size="lg" className="mt-4" asChild>
-            <a href="https://mindcarft.s3.us-east-1.amazonaws.com/app-release.apk" download>
-              Download the app
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.mindcraft.mindcarft"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              התחל את המחזור השבועי
             </a>
           </Button>
         </div>

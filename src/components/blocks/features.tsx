@@ -9,15 +9,15 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const items = [
   {
-    title: "Daily personalized exercises",
+    title: "Weekly tasks that create real movement",
     image: "/features/triage.jpg",
   },
   {
-    title: "Track your mental growth",
+    title: "Pattern recognition & boundary setting",
     image: "/features/cycle-card.svg",
   },
   {
-    title: "Build lasting mental resilience",
+    title: "Review & reset with clarity, not guilt",
     image: "/features/overview-card.svg",
   },
 ];
@@ -30,19 +30,19 @@ export const Features = () => {
         <div className="relative flex items-center justify-center">
           <DashedLine className="text-muted-foreground" />
           <span className="bg-muted text-muted-foreground absolute px-3 font-mono text-sm font-medium tracking-wide max-md:hidden">
-            STRENGTHEN. GROW. THRIVE.
+            AWARENESS → REFLECTION → DECISION → ACTION → REVIEW
           </span>
         </div>
 
         {/* Content */}
         <div className="mx-auto mt-10 grid max-w-4xl items-center gap-3 md:gap-0 lg:mt-24 lg:grid-cols-2">
           <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Built for your mental well-being
+            Not inspiration. Infrastructure.
           </h2>
           <p className="text-muted-foreground leading-snug">
-            Mind Carft combines AI-powered personalization with Thelium's proven methods
-            to help you build better habits, reduce stress, and unlock your full potential
-            through daily practices that enhance focus, clarity, and emotional balance.
+            Most people don't fail because they lack motivation. They fail because they don't have structure. 
+            Mindcraft helps you replace reactive living with a stable inner architecture: clearer values, stronger boundaries, 
+            better decisions, and consistent follow-through.
           </p>
         </div>
 

@@ -17,58 +17,58 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    quote: "Mind Carft has completely transformed how I start my mornings. The daily exercises are exactly what I need.",
-    author: "Amy Chase",
-    role: "Product Manager",
+    quote: "לא עוד אפליקציית מוטיבציה. Mindcraft נתן לי מבנה כשהכי הייתי צריך. גבולות אמיתיים, החלטות אמיתיות.",
+    author: "איימי צ'ייס",
+    role: "מנהלת מוצר",
     company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "The AI personalization is incredible. It's like having a personal growth coach that truly understands me.",
-    author: "Jonas Kotara",
-    role: "Entrepreneur",
+    quote: "המחזור השבועי עזר לי לזהות תבניות שלא יכולתי לראות קודם. אני מקבל החלטות ברורות יותר בעסק ובחיים.",
+    author: "ג'ונס קוטרה",
+    role: "יזם",
     company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Mind Carft helped me build the mental clarity I needed. It's become my daily non-negotiable.",
-    author: "Kevin Yam",
-    role: "Founder",
+    quote: "הייתי תקוע במצב תגובתי. Mindcraft עזר לי לבנות תשתית שאני באמת יכול לחיות עליה. שבוע אחרי שבוע.",
+    author: "קווין יאם",
+    role: "מייסד",
     company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "The Thelium-based exercises are powerful. I've seen real progress in my focus and emotional balance.",
-    author: "Kundo Marta",
-    role: "Creative Director",
+    quote: "סוף סוף, משהו שמטפל במבנה שמתחת, לא רק בתסמינים. המשימות באמת מניעות אותי קדימה.",
+    author: "קונדו מרטה",
+    role: "מנהל קריאטיב",
     company: "Design Studio",
     image: "/testimonials/kundo-marta.webp",
   },
   {
-    quote: "Mind Carft has completely transformed how I start my mornings. The daily exercises are exactly what I need.",
-    author: "Amy Chase",
-    role: "Product Manager",
+    quote: "לא עוד אפליקציית מוטיבציה. Mindcraft נתן לי מבנה כשהכי הייתי צריך. גבולות אמיתיים, החלטות אמיתיות.",
+    author: "איימי צ'ייס",
+    role: "מנהלת מוצר",
     company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "The AI personalization is incredible. It's like having a personal growth coach that truly understands me.",
-    author: "Jonas Kotara",
-    role: "Entrepreneur",
+    quote: "המחזור השבועי עזר לי לזהות תבניות שלא יכולתי לראות קודם. אני מקבל החלטות ברורות יותר בעסק ובחיים.",
+    author: "ג'ונס קוטרה",
+    role: "יזם",
     company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Mind Carft helped me build the mental clarity I needed. It's become my daily non-negotiable.",
-    author: "Kevin Yam",
-    role: "Founder",
+    quote: "הייתי תקוע במצב תגובתי. Mindcraft עזר לי לבנות תשתית שאני באמת יכול לחיות עליה. שבוע אחרי שבוע.",
+    author: "קווין יאם",
+    role: "מייסד",
     company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "The Thelium-based exercises are powerful. I've seen real progress in my focus and emotional balance.",
-    author: "Kundo Marta",
-    role: "Creative Director",
+    quote: "סוף סוף, משהו שמטפל במבנה שמתחת, לא רק בתסמינים. המשימות באמת מניעות אותי קדימה.",
+    author: "קונדו מרטה",
+    role: "מנהל קריאטיב",
     company: "Design Studio",
     image: "/testimonials/kundo-marta.webp",
   },
@@ -87,14 +87,13 @@ export const Testimonials = ({
         <div className="container">
           <div className="space-y-4">
             <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              Trusted by growth seekers worldwide
+              מבנה אמיתי. תנועה אמיתית.
             </h2>
             <p className="text-muted-foreground max-w-md leading-snug">
-              Join thousands who have made Mind Carft their daily ritual for 
-              personal transformation. Real people, real growth, real results.
+              אנשים משתמשים ב-Mindcraft כדי לבנות מחדש מבפנים. לא השראה — תשתית.
             </p>
             <Button variant="outline" className="shadow-md">
-              Read success stories <ArrowRight className="size-4" />
+              קרא סיפורי הצלחה <ArrowRight className="size-4" />
             </Button>
           </div>
 

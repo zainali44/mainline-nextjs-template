@@ -10,62 +10,62 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   {
-    title: "Getting Started",
+    title: "מתחילים",
     questions: [
       {
-        question: "What is Mind Carft?",
+        question: "מה זה Mindcraft?",
         answer:
-          "Mind Carft is your personal growth companion designed to strengthen your mind and elevate your well-being every day. Powered by AI, it delivers carefully crafted exercises and insightful content based on Thelium's proven methods to enhance focus, clarity, emotional balance, and resilience.",
+          "Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים. זה לא דרשה דתית או מבחן אמונה — זו שיטה מובנית שעוזרת לך לעבור ממצב הישרדות אוטומטי (\"מצרים\") לבניית תשתית פנימית איתנה שאתה באמת יכול לחיות עליה.",
       },
       {
-        question: "How does Mind Carft work?",
+        question: "האם זה דתי? האם אני צריך להיות דתי כדי להשתמש בזה?",
         answer:
-          "Mind Carft uses advanced AI to personalize your experience. Each day, you'll receive exercises tailored to your journey and progress. The app learns from your interactions and adapts to provide the most effective practices for your personal growth.",
+          "לא. Mindcraft משתמש בתנ״ך כמסגרת מבנית — אלגוריתם של לחץ ← בחירה ← גבול ← אחריות ← התחדשות. כל משימה כתובה בשפה של החיים המודרניים, לא בטרמינולוגיה דתית. אתה בונה תשתית פנימית, לא מתרגל דת.",
       },
       {
-        question: "What are Thelium methods?",
+        question: "במה זה שונה מאפליקציות שיפור עצמי אחרות?",
         answer:
-          "Thelium methods are proven psychological techniques and frameworks that form the foundation of Mind Carft's exercises. These evidence-based practices have been refined over years to deliver real, measurable improvements in mental strength and emotional well-being.",
+          "רוב האפליקציות נותנות לך השראה או מוטיבציה שדועכת מהר. Mindcraft נותן לך מבנה. אתה לא צורך תוכן — אתה מריץ תהליך שבועי. כל מחזור עוזר לך להחליף תבניות תגובתיות בארכיטקטורה יציבה: ערכים ברורים יותר, גבולות חזקים יותר, החלטות טובות יותר.",
       },
     ],
   },
   {
-    title: "Your Journey",
+    title: "המחזור השבועי",
     questions: [
       {
-        question: "How much time do I need to commit each day?",
+        question: "כמה זמן כל שבוע דורש?",
         answer:
-          "Mind Carft is designed to fit into your daily routine. Most exercises take between 5-15 minutes. Consistency matters more than duration—even a few minutes daily can create meaningful change over time.",
+          "כל שבוע כולל סט קטן של משימות ממוקדות — לא שעות של תוכן. תבלה זמן על הרהור כנה, מיקרו-החלטות, שיחות וקביעת גבולות. המטרה היא פעולה קונקרטית, לא צריכה. חשוב על זה כעל ספרינט עיצוב פנימי שחוזר על עצמו מדי שבוע.",
       },
       {
-        question: "How long before I see results?",
+        question: "מה אם אני מפספס שבוע?",
         answer:
-          "Many users report feeling more focused and balanced within the first week. However, lasting transformation typically develops over 3-4 weeks of consistent practice as new neural pathways form and habits strengthen.",
+          "אתה ממשיך מהמקום שבו אתה נמצא. הפרשיות השבועיות עוקבות אחר מחזור, וכל אחת בונה על תבניות מהנרטיב המקראי. לפספס שבוע לא שובר כלום — פשוט תתחיל עם הפרשה הנוכחית. המבנה מתוכנן לפגוש אותך איפה שאתה נמצא.",
       },
       {
-        question: "Can I track my progress?",
+        question: "איך אני יודע אם זה עובד?",
         answer:
-          "Yes! Mind Carft includes comprehensive progress tracking that shows your growth in focus, clarity, emotional balance, and resilience. Premium members get access to detailed analytics and insights.",
+          "אתה תשים לב לתנועה, לא רק להבנה. האם אתה משרטט גבולות שלא יכולת קודם? מקבל החלטות ברורות יותר? מגיב פחות ובוחר יותר? שלב הסקירה בכל שבוע עוזר לך לסגור בבהירות ולעקוב אחרי מה שבאמת משתנה במבנה שלך — לא רק ברגשות שלך.",
       },
     ],
   },
   {
-    title: "Pricing & Plans",
+    title: "שאלות מעשיות",
     questions: [
       {
-        question: "Is there a free version?",
+        question: "איך נראה שבוע טיפוסי?",
         answer:
-          "Yes! Our free plan includes daily personalized exercises, basic AI recommendations, progress tracking, and community access. You can upgrade anytime to unlock advanced features and unlimited content.",
+          "אתה מתחיל בזיהוי היכן אתה תקוע או מגיב אוטומטית. אז אתה עובר דרך מודעות ← הרהור ← החלטה ← פעולה ← סקירה. כל שלב כולל משימות ספציפיות: שאלות לכתוב עליהן, גבולות לשרטט, שיחות ליזום, הרגלים להתקין. בסוף, אתה בנית משהו — לא רק למדת משהו.",
       },
       {
-        question: "What's included in Premium?",
+        question: "איך נראות המשימות?",
         answer:
-          "Premium includes advanced AI personalization, unlimited exercise library, detailed analytics & insights, priority support, and offline access. It's designed for those committed to deep, sustained personal growth.",
+          "קונקרטיות וספציפיות. לא 'תחשוב על הכרת תודה' — יותר כמו 'זהה שיחה אחת שנמנעת ממנה וכתוב את המשפט הפותח'. כל משימה קשורה לפרשה המקראית השבועית אבל מתורגמת לחיים המודרניים. המטרה היא תנועה: פחות תיאוריה, יותר פעולה כנה.",
       },
       {
-        question: "Can I cancel my subscription anytime?",
+        question: "האם אני יכול להשתמש בזה לצד טיפול או תרגולים אחרים?",
         answer:
-          "Absolutely. You can cancel your subscription at any time with no penalties. Your premium access will continue until the end of your current billing period.",
+          "כן. Mindcraft היא מבנה, לא תחליף לטיפול. משתמשים רבים מוצאים שהיא משלימה את התרגולים הקיימים שלהם על ידי מתן קצב שבועי ומסגרת מעשית ליישום מה שהם לומדים במקום אחר.",
       },
     ],
   },
@@ -86,18 +86,18 @@ export const FAQ = ({
         <div className={cn("mx-auto grid gap-16 lg:grid-cols-2", className2)}>
           <div className="space-y-4">
             {headerTag === "h1" ? (
-              <h1 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+              <h1 className="text-2xl tracking-tight md:text-4xl lg:text-5xl" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+                יש שאלות?
               </h1>
             ) : (
-              <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+              <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+                יש שאלות?
               </h2>
             )}
-            <p className="text-muted-foreground max-w-md leading-snug lg:mx-auto">
-              If you can't find what you're looking for,{" "}
+            <p className="text-muted-foreground max-w-md leading-snug lg:mx-auto" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+              אם אתה לא מוצא את מה שאתה מחפש,{" "}
               <Link href="/contact" className="underline underline-offset-4">
-                get in touch
+                צור קשר
               </Link>
               .
             </p>

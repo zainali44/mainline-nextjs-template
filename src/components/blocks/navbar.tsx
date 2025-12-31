@@ -15,22 +15,26 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between px-6 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <span className="text-xl font-bold tracking-tight">Mind Carft</span>
+          <span className="text-xl font-bold tracking-tight">Mindcraft</span>
         </Link>
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-2.5">
-          <Link href="/login">
+          <a 
+            href="https://play.google.com/store/apps/details?id=com.mindcraft.mindcarft"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button variant="outline">
-              <span className="relative z-10">Login</span>
+              <span className="relative z-10">כניסה</span>
             </Button>
-          </Link>
+          </a>
           <a
             href="https://twitter.com/mindcarft"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="size-4" />
-            <span className="sr-only">Social</span>
+            <span className="sr-only">רשתות חברתיות</span>
           </a>
         </div>
       </div>

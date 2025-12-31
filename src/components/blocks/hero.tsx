@@ -11,23 +11,23 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Daily exercises",
-    description: "Carefully crafted practices tailored to your personal journey.",
+    title: "תוכנית שבועית",
+    description: "האלגוריתם שמתחת לכל פרשה, מתורגם לצעדים מעשיים בחיים.",
     icon: CircleDot,
   },
   {
-    title: "AI-powered personalization",
-    description: "Adaptive guidance that evolves with your progress.",
+    title: "כלים יומיים",
+    description: "פעולות קצרות שיוצרות תנופה ללא עומס.",
     icon: Blend,
   },
   {
-    title: "Thelium methods",
-    description: "Guided practices inspired by proven psychological techniques.",
+    title: "מראה תבניות",
+    description: "זיהוי היכן אתה תקוע ומה מפעיל את המערכת שלך.",
     icon: Diamond,
   },
   {
-    title: "Real growth tracking",
-    description: "Monitor your mental strength, clarity, and emotional balance.",
+    title: "בונה גבולות",
+    description: "משרטט קווים, מחזיק אותם, ומפסיק לדלוף אנרגיה.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -38,30 +38,39 @@ export const Hero = () => {
       <div className="container flex flex-col justify-between gap-8 md:gap-14 lg:flex-row lg:gap-20">
         {/* Left side - Main content */}
         <div className="flex-1">
-          <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-            Your daily ritual for the mind
+          <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
+            התוכנית השבועית לתשתית הפנימית
           </h1>
 
-          <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-            Mind Carft strengthens your mind and elevates your well-being with AI-powered exercises and insights based on Thelium's proven methods.
+          <p className="text-muted-foreground text-1xl mt-5 md:text-2xl">
+            עצב את מוחך. בנה מבנה חיים שמחזיק מעמד.
+          </p>
+          
+          <p className="text-muted-foreground mt-4 text-base md:text-lg leading-relaxed">
+            Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים — לא דרשה דתית, לא מבחן אמונה, ולא "השראה ששוכחים מחר".
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
-            <Button asChild>
-              <a href="https://mindcarft.s3.us-east-1.amazonaws.com/app-release.apk" download>
-                Download the app
+            <Button asChild size="lg">
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.mindcraft.mindcarft"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                התחל את המחזור השבועי
               </a>
             </Button>
             <Button
               variant="outline"
-              className="from-background h-auto gap-2 bg-linear-to-r to-transparent shadow-md"
+              className="from-background gap-2 bg-linear-to-r to-transparent shadow-md"
               asChild
+              size="lg"
             >
               <a
                 href="/about"
                 className="max-w-56 truncate text-start md:max-w-none"
               >
-                Learn more
+                איך זה עובד
                 <ArrowRight className="stroke-3" />
               </a>
             </Button>
@@ -69,10 +78,10 @@ export const Hero = () => {
         </div>
 
         {/* Right side - Features */}
-        <div className="relative flex flex-1 flex-col justify-center space-y-5 max-lg:pt-10 lg:pl-10">
+        <div className="relative flex flex-1 flex-col justify-center space-y-5 max-lg:pt-10 lg:pr-10">
           <DashedLine
             orientation="vertical"
-            className="absolute top-0 left-0 max-lg:hidden"
+            className="absolute top-0 right-0 max-lg:hidden"
           />
           <DashedLine
             orientation="horizontal"

@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
+import Script from "next/script";
 
 import type { Metadata } from "next";
 
@@ -62,28 +63,28 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mind Carft - Your Personal Growth Companion",
-    template: "%s | Mind Carft",
+    default: "Mindcraft - התוכנית השבועית לתשתית הפנימית",
+    template: "%s | Mindcraft",
   },
   description:
-    "Mind Carft is your personal growth companion, designed to strengthen your mind and elevate your well-being every day. Powered by AI with Thelium's proven methods.",
+    "עצב את מוחך. בנה מבנה חיים שמחזיק מעמד. Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים.",
   keywords: [
-    "personal growth",
-    "mental wellness",
-    "AI-powered",
-    "mindfulness",
-    "mental strength",
-    "daily exercises",
-    "Thelium",
-    "mind training",
-    "self-improvement",
-    "emotional balance",
-    "focus",
-    "clarity",
+    "צמיחה אישית",
+    "תשתית פנימית",
+    "תוכנית שבועית",
+    "מסגרת מנטלית",
+    "תנ״ך",
+    "חוכמה תנכית",
+    "מבנה חיים",
+    "גבולות",
+    "קבלת החלטות",
+    "שיפור עצמי",
+    "בהירות מנטלית",
+    "יצירת הרגלים",
   ],
-  authors: [{ name: "Mind Carft" }],
-  creator: "Mind Carft",
-  publisher: "Mind Carft",
+  authors: [{ name: "Mindcraft" }],
+  creator: "Mindcraft",
+  publisher: "Mindcraft",
   robots: {
     index: true,
     follow: true,
@@ -100,24 +101,24 @@ export const metadata: Metadata = {
     shortcut: [{ url: "/favicon/favicon.ico" }],
   },
   openGraph: {
-    title: "Mind Carft - Your Personal Growth Companion",
+    title: "Mindcraft - התוכנית השבועית לתשתית הפנימית",
     description:
-      "Mind Carft is your personal growth companion, designed to strengthen your mind and elevate your well-being every day. Powered by AI with Thelium's proven methods.",
-    siteName: "Mind Carft",
+      "עצב את מוחך. בנה מבנה חיים שמחזיק מעמד. Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים.",
+    siteName: "Mindcraft",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mind Carft - Your Personal Growth Companion",
+        alt: "Mindcraft - התוכנית השבועית לתשתית הפנימית",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mind Carft - Your Personal Growth Companion",
+    title: "Mindcraft - התוכנית השבועית לתשתית הפנימית",
     description:
-      "Mind Carft is your personal growth companion, designed to strengthen your mind and elevate your well-being every day. Powered by AI with Thelium's proven methods.",
+      "עצב את מוחך. בנה מבנה חיים שמחזיק מעמד. Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים.",
     images: ["/og-image.jpg"],
     creator: "@mindcarft",
   },
@@ -129,15 +130,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <script
-          async
-          crossOrigin="anonymous"
+    <html lang="he" dir="rtl" suppressHydrationWarning>
+      <body className={`${dmSans.variable} ${inter.variable} antialiased`} suppressHydrationWarning>
+        <Script
           src="https://tweakcn.com/live-preview.min.js"
+          strategy="afterInteractive"
         />
-      </head>
-      <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
         <StyleGlideProvider />
         <Navbar />
         <main className="">{children}</main>

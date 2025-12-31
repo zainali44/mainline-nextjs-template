@@ -11,40 +11,40 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Free",
+    name: "חינם",
     monthlyPrice: "$0",
     yearlyPrice: "$0",
-    description: "Start your journey",
+    description: "התחל את המחזור השבועי",
     features: [
-      "Daily personalized exercises",
-      "Basic AI recommendations",
-      "Progress tracking",
-      "Community access",
+      "גישה לתוכנית השבועית",
+      "ספריית משימות בסיסית",
+      "כלי זיהוי תבניות",
+      "מסגרת סקירה שבועית",
     ],
   },
   {
-    name: "Premium",
+    name: "פרמיום",
     monthlyPrice: "$12",
     yearlyPrice: "$9",
     features: [
-      "All free plan features and...",
-      "Advanced AI personalization",
-      "Unlimited exercise library",
-      "Detailed analytics & insights",
-      "Priority support",
-      "Offline access",
+      "כל התכונות החינמיות ו...",
+      "ספריית משימות מלאה (52 שבועות)",
+      "בונה גבולות מתקדם",
+      "ניתוח תבניות מפורט",
+      "תמיכה עדיפות",
+      "גישה אופליין",
     ],
   },
   {
-    name: "Lifetime",
+    name: "לכל החיים",
     monthlyPrice: "$299",
     yearlyPrice: "$299",
     features: [
-      "All premium features",
-      "One-time payment",
-      "Lifetime access",
-      "Early access to new features",
-      "Personal growth coaching",
+      "כל תכונות הפרמיום",
+      "תשלום חד-פעמי",
+      "גישה לעדכונים לכל החיים",
+      "גישה מוקדמת לכלים חדשים",
+      "ייעוץ מבנה אישי 1-על-1",
     ],
   },
 ];
@@ -55,13 +55,13 @@ export const Pricing = ({ className }: { className?: string }) => {
   return (
     <section className={cn("py-28 lg:py-32", className)}>
       <div className="container max-w-5xl">
-        <div className="space-y-4 text-center">
-          <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Choose your growth path
+        <div className="space-y-4 flex flex-col items-center">
+          <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+            התחל לבנות את המבנה שלך
           </h2>
-          <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-            Start with Mind Carft for free. Upgrade to unlock advanced AI personalization,
-            deeper insights, and unlimited access to transform your mental well-being.
+          <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
+            התחל עם התוכנית השבועית בחינם. שדרג כדי לקבל גישה לכלים עמוקים יותר, 
+            זיהוי תבניות מתקדם, וספריית המשימות המלאה כדי לבנות מחדש את התשתית הפנימית שלך.
           </p>
         </div>
 
@@ -91,14 +91,14 @@ export const Pricing = ({ className }: { className?: string }) => {
                   </div>
                 </div>
 
-                {plan.name !== "Free" ? (
+                {plan.name !== "חינם" ? (
                   <div className="flex items-center gap-2">
                     <Switch
                       checked={isAnnual}
                       onCheckedChange={() => setIsAnnual(!isAnnual)}
                       aria-label="Toggle annual billing"
                     />
-                    <span className="text-sm font-medium">Billed annually</span>
+                    <span className="text-sm font-medium">חיוב שנתי</span>
                   </div>
                 ) : (
                   <span className="text-muted-foreground text-sm">
@@ -120,9 +120,9 @@ export const Pricing = ({ className }: { className?: string }) => {
 
                 <Button
                   className="w-fit"
-                  variant={plan.name === "Premium" ? "default" : "outline"}
+                  variant={plan.name === "פרמיום" ? "default" : "outline"}
                 >
-                  {plan.name === "Lifetime" ? "Get lifetime access" : "Get started"}
+                  {plan.name === "לכל החיים" ? "קבל גישה לכל החיים" : "התחל"}
                 </Button>
               </CardContent>
             </Card>
