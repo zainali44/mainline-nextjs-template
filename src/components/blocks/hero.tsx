@@ -11,23 +11,23 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "תוכנית שבועית",
-    description: "האלגוריתם שמתחת לכל פרשה, מתורגם לצעדים מעשיים בחיים.",
+    title: "מודעות ← בירור",
+    description: "איפה אתה תקוע, איזה דפוס מנהל אותך, איזה גבול חסר.",
     icon: CircleDot,
   },
   {
-    title: "כלים יומיים",
-    description: "פעולות קצרות שיוצרות תנופה ללא עומס.",
+    title: "החלטה ← פעולה",
+    description: "צעד קטן שמתחיל תנועה אמיתית, לא מוטיבציה רגעית.",
     icon: Blend,
   },
   {
-    title: "מראה תבניות",
-    description: "זיהוי היכן אתה תקוע ומה מפעיל את המערכת שלך.",
+    title: "בדיקה ← מבנה",
+    description: "החלפת תגובתיות במבנה, בניית תשתית שהחיים עומדים עליה.",
     icon: Diamond,
   },
   {
-    title: "בונה גבולות",
-    description: "משרטט קווים, מחזיק אותם, ומפסיק לדלוף אנרגיה.",
+    title: "רצף שבועי",
+    description: "ספרינט פנימי שחוזר כל שבוע, מהפרשה למודל חיים.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -39,15 +39,17 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
-            התוכנית השבועית לתשתית הפנימית
+            התורה כמערכת הפעלה
           </h1>
 
           <p className="text-muted-foreground text-1xl mt-5 md:text-2xl">
-            עצב את מוחך. בנה מבנה חיים שמחזיק מעמד.
+            לא סיפורים. אלגוריתם.
           </p>
           
           <p className="text-muted-foreground mt-4 text-base md:text-lg leading-relaxed">
-            Mindcraft הופך את הפרשה השבועית למערכת הפעלה מעשית לחיים המודרניים — לא דרשה דתית, לא מבחן אמונה, ולא "השראה ששוכחים מחר".
+            Mindcraft מתרגמת את התורה למבנה עבודה שבועי. הפרשה היא מפה, אבל מתחת למפה יש מנגנון — 
+            רצף של כללים, גבולות ושלבים שמגדירים איך מתקדמים מתוך מצוקה, איך בונים יציבות, 
+            ואיך לא מאבדים את עצמנו תוך כדי תנועה.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">

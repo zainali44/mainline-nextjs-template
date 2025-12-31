@@ -17,56 +17,56 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    quote: "לא עוד אפליקציית מוטיבציה. Mindcraft נתן לי מבנה כשהכי הייתי צריך. גבולות אמיתיים, החלטות אמיתיות.",
+    quote: "אני לא קורא את הפרשה כסיפור יותר. אני קורא אותה כמפה. Mindcraft עזרה לי לראות את המנגנון מתחת — וזה שינה הכל.",
     author: "איימי צ'ייס",
     role: "מנהלת מוצר",
     company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "המחזור השבועי עזר לי לזהות תבניות שלא יכולתי לראות קודם. אני מקבל החלטות ברורות יותר בעסק ובחיים.",
+    quote: "סוף סוף משהו שלא מדבר אליי על 'חשיבה חיובית'. Mindcraft נתנה לי מבנה — איך לזהות את הדפוס, איך לשרטט גבול, ומה הצעד הבא.",
     author: "ג'ונס קוטרה",
     role: "יזם",
     company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "הייתי תקוע במצב תגובתי. Mindcraft עזר לי לבנות תשתית שאני באמת יכול לחיות עליה. שבוע אחרי שבוע.",
+    quote: "הייתי במצב הישרדות כרוני. המחזור השבועי עזר לי להחליף תגובתיות בבחירה. לא מוטיבציה — תשתית.",
     author: "קווין יאם",
     role: "מייסד",
     company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "סוף סוף, משהו שמטפל במבנה שמתחת, לא רק בתסמינים. המשימות באמת מניעות אותי קדימה.",
+    quote: "התורה תמיד הייתה חלק מהחיים שלי, אבל Mindcraft הראתה לי איך להפוך אותה לכלי עבודה. לא סיסמאות — מודל.",
     author: "קונדו מרטה",
     role: "מנהל קריאטיב",
     company: "Design Studio",
     image: "/testimonials/kundo-marta.webp",
   },
   {
-    quote: "לא עוד אפליקציית מוטיבציה. Mindcraft נתן לי מבנה כשהכי הייתי צריך. גבולות אמיתיים, החלטות אמיתיות.",
+    quote: "אני לא קורא את הפרשה כסיפור יותר. אני קורא אותה כמפה. Mindcraft עזרה לי לראות את המנגנון מתחת — וזה שינה הכל.",
     author: "איימי צ'ייס",
     role: "מנהלת מוצר",
     company: "Tech Innovators",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "המחזור השבועי עזר לי לזהות תבניות שלא יכולתי לראות קודם. אני מקבל החלטות ברורות יותר בעסק ובחיים.",
+    quote: "סוף סוף משהו שלא מדבר אליי על 'חשיבה חיובית'. Mindcraft נתנה לי מבנה — איך לזהות את הדפוס, איך לשרטט גבול, ומה הצעד הבא.",
     author: "ג'ונס קוטרה",
     role: "יזם",
     company: "Startup Ventures",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "הייתי תקוע במצב תגובתי. Mindcraft עזר לי לבנות תשתית שאני באמת יכול לחיות עליה. שבוע אחרי שבוע.",
+    quote: "הייתי במצב הישרדות כרוני. המחזור השבועי עזר לי להחליף תגובתיות בבחירה. לא מוטיבציה — תשתית.",
     author: "קווין יאם",
     role: "מייסד",
     company: "Growth Labs",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "סוף סוף, משהו שמטפל במבנה שמתחת, לא רק בתסמינים. המשימות באמת מניעות אותי קדימה.",
+    quote: "התורה תמיד הייתה חלק מהחיים שלי, אבל Mindcraft הראתה לי איך להפוך אותה לכלי עבודה. לא סיסמאות — מודל.",
     author: "קונדו מרטה",
     role: "מנהל קריאטיב",
     company: "Design Studio",
@@ -87,13 +87,13 @@ export const Testimonials = ({
         <div className="container">
           <div className="space-y-4">
             <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              מבנה אמיתי. תנועה אמיתית.
+              מסיפור לקוד. מקוד למבנה.
             </h2>
             <p className="text-muted-foreground max-w-md leading-snug">
-              אנשים משתמשים ב-Mindcraft כדי לבנות מחדש מבפנים. לא השראה — תשתית.
+              אנשים קוראים את התורה אחרת. לא כסיפורים — כאלגוריתם. ובונים עליו חיים.
             </p>
             <Button variant="outline" className="shadow-md">
-              קרא סיפורי הצלחה <ArrowRight className="size-4" />
+              קרא עוד <ArrowRight className="size-4" />
             </Button>
           </div>
 

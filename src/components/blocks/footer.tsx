@@ -24,11 +24,11 @@ export function Footer() {
     <footer className="flex flex-col items-center gap-14 pt-28 lg:pt-32">
       <div className="container space-y-3 flex flex-col items-center">
         <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
-          מוכן לבנות את התשתית הפנימית שלך?
+          מוכן לקרוא את הקוד?
         </h2>
         <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
-          התחל את המחזור השבועי שלך. עבור מתבניות תגובתיות לארכיטקטורה יציבה. 
-          עצב את מוחך. בנה מבנה חיים שמחזיק מעמד.
+          התחל את המחזור השבועי. עבור ממצב הישרדות למבנה. 
+          מתגובתיות לבחירה. מקוד עתיק למערכת חיים שעובדת.
         </p>
         <div>
           <Button size="lg" className="mt-4" asChild>
