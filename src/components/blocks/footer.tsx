@@ -37,7 +37,7 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              התחל את המחזור השבועי
+              להורדה של האפליקציה עבור משתמשי
             </a>
           </Button>
         </div>

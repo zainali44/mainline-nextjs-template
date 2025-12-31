@@ -28,7 +28,7 @@ const plans = [
     yearlyPrice: "$9",
     features: [
       "כל התכונות החינמיות ו...",
-      "52 פרשיות כמודל עבודה מלא",
+      "4 פרשיות כמודל עבודה מלא",
       "כלים מתקדמים לבניית גבולות",
       "ניתוח עמוק של תבניות אישיות",
       "תמיכה עדיפות",
@@ -61,7 +61,7 @@ export const Pricing = ({ className }: { className?: string }) => {
           </h2>
           <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance text-center" dir="rtl" style={{ unicodeBidi: 'isolate' }}>
             התחל עם המחזור השבועי בחינם. שדרג כדי לקבל גישה מלאה למנגנון: 
-            52 פרשיות כמודל עבודה, כלים לזיהוי תבניות, ומסגרת לבניית תשתית שלא מתמוטטת.
+            4 פרשיות כמודל עבודה, כלים לזיהוי תבניות, ומסגרת לבניית תשתית שלא מתמוטטת.
           </p>
         </div>
 

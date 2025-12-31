@@ -2,7 +2,7 @@ import { DashedLine } from "@/components/dashed-line";
 
 const stats = [
   {
-    value: "52",
+    value: "4",
     label: "פרשיות שבועיות",
   },
   {

@@ -6,14 +6,13 @@ import { cn } from "@/lib/utils";
 
 const About = () => {
   return (
-    <section className="container mt-10 flex max-w-5xl flex-col-reverse gap-8 md:mt-14 md:gap-14 lg:mt-20 lg:flex-row lg:items-end">
+    <section className="container mt-10 flex max-w-5xl flex-col-reverse gap-8 md:mt-14 md:gap-14 lg:mt-20 lg:flex-row lg:items-start">
       {/* Images Left - Text Right */}
-      <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
+      <div className="flex flex-1 flex-col gap-8 lg:gap-16 xl:gap-20">
         <ImageSection
           images={[
             { src: "/about/1.webp", alt: "Team collaboration" },
           ]}
-          className="xl:-translate-x-10"
         />
 
         <TextSection
@@ -25,13 +24,13 @@ const About = () => {
           ]}
           ctaButton={{
             href: "https://play.google.com/store/apps/details?id=com.mindcraft.mindcarft",
-            text: "התחל את המחזור השבועי",
+            text: "להורדה של האפליקציה עבור משתמשי",
           }}
         />
       </div>
 
       {/* Text Left - Images Right */}
-      <div className="flex flex-col gap-8 lg:gap-16 xl:gap-20">
+      <div className="flex flex-1 flex-col gap-8 lg:gap-16 xl:gap-20">
         <TextSection
           paragraphs={[
             "Mindcraft מוציאה מהפרשה את המנגנון ומנסחת אותו כמודל חיים פרקטי: איפה אנחנו תקועים, איזה דפוס מנהל אותנו, איזה גבול חסר, איזה ערך לא מוגדר, ואיזה צעד קטן יכול להתחיל תנועה אמיתית.",
@@ -43,7 +42,7 @@ const About = () => {
           images={[
             { src: "/about/4.webp", alt: "Team collaboration" },
           ]}
-          className="hidden lg:flex xl:translate-x-10"
+          className="hidden lg:flex"
         />
       </div>
     </section>
